@@ -2,7 +2,7 @@
 url(&#39;https://fonts.googleapis.com/css2?family=Pacifico&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap&#39;);
 
 body{
-background: white;
+background: #ff6bce;
 font-family: Poppins;
 }
 
@@ -85,14 +85,15 @@ padding-bottom:5px ;
 font-weight: bold;
 font-family: Poppins;
 border: 2px solid black;
+animation: animate .5s linear infinite;
 }
 #btn1:hover{
 background: white;
-border: 2px solid black;
+border: 2px solid rgb(0, 109, 0);
 }
 #btn2:hover{
 background: white;
-border: 2px solid black;
+border: 2px solid rgb(211, 10, 10);
 }
 #btn2{
 padding-left: 30px;
@@ -101,21 +102,34 @@ padding-top: 5px ;
 padding-bottom:5px ;
 font-weight: bold;
 font-family: Poppins;
-border: 2px solid red;
+border: 2px solid rgb(0, 0, 0);
 
 }
+
+@keyframes animate{
+  0%{
+    color: #ffffff5e;
+    box-shadow: none;
+  }
+      100%{
+        color: green;
+      }
+    }
+  
+
 
 .crush{
 font-size: 25px;
 margin-bottom: 2em;
 font-weight: bold;
 color: black;
+text-align: center;
 }
 #hands{
 width: 50px;
 position: absolute;
-top: 9em;
-left: 1em;
+top: 12.5em;
+left: 8em;
 animation: bounce2 2s ease infinite;
 opacity: 0;
 }
