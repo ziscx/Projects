@@ -1,3 +1,14 @@
+
+*{
+  font-family: poppins;
+  font-weight: 500;
+  background: #ff6bce;
+}
+
+p{
+  text-align: center;
+}
+
 .kilig img{
   width: 200px;
  }
